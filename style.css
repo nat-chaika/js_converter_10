@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+body{
+    font: arial;
+    margin: opx;
+    padding: 0px;
+    background: linear-gradient(to right bottom, #1b9dc2, #031f6a);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.converter-body{
+    margin-top: 30%;
+    width: 400px;
+    height: 150px;
+    background: #4fb8d6;
+    border-radius: 15px;   
+
+}
+.converter-title{
+    text-align: center;
+    font-family: Comfortaa;
+    margin: 13px 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+input{
+    height: 25px;
+    text-align: center;
+    border-radius: 8px;
+}
+#input{
+    margin-left: 25px;
+    border: 0px;
+}
+#result{
+    border: 0px;
+}
+#inputType, #resultType{
+    width: 166.66px;
+    margin-left: 25px;
+    border-radius: 4px;
+    background-color: #8fe3fa;
+    border: 0px;
+
+}
+#resultType{
+    margin-left: 13px;
+}
